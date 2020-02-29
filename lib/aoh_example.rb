@@ -22,6 +22,8 @@ def literal_aoh
   literal_array[2] = PAT_M
   literal_array[3] = KATE_G
   literal_array[4] = BRUCE_G
+
+  return literal_array
 end
 
 def aoh_lookup(aoh, row, key)
