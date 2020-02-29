@@ -15,7 +15,13 @@ end
 def literal_aoh
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
-  literal_array = [#{DON_G}, #{JOELLE_VD}, #{PAT_M}, #{KATE_G}, #{BRUCE_G}]
+  literal_array = Array.new
+
+  literal_array[0] = DON_G
+  literal_array[1] = JOELLE_VD
+  literal_array[2] = PAT_M
+  literal_array[3] = KATE_G
+  literal_array[4] = BRUCE_G
 end
 
 def aoh_lookup(aoh, row, key)
